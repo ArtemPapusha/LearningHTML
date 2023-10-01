@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <main>
+        <section>
+            <hr>
+            <h2>
+                Cars for sale
+            </h2>
+            <form action="#" name="Cars for sale" autocomplete="on">
+                <fieldset>
+                    <legend>
+                        Audi
+                    </legend>
+                    <fieldset> 
+                        <legend>
+                            Choose a model
+                        </legend>
+                        <select name="model">
+                            <option value="A4">
+                                A4
+                            </option>
+                            <option value="A5">
+                                A5
+                            </option>
+                            <option value="A6">
+                                A6
+                            </option>
+                            <option disabled value="A7">
+                                A7
+                            </option>
+                            <option value="A8">
+                                A8
+                            </option>
+                            <option value="Q3">
+                                Q3
+                            </option>
+                            <option value="Q5">
+                                Q5
+                            </option>
+                        </select>
+                    </fieldset>
+                    <fieldset> 
+                        <legend>Choose an option</legend>
+                        <label for="equipment">
+                            Equipment
+                        </label>
+                        <select name="Equipment" id="equipment">
+                            <option value="Basic">
+                                Basic
+                            </option>
+                            <option value="Comfort">
+                                Comfort
+                            </option>
+                            <option value="Luxury">
+                                Luxury
+                            </option>
+                        </select>
+                        <br>
+                        <label for="fuel">
+                            Available fuel types
+                        </label>
+                        <select name="Type of fuel" id="fuel">
+                            <option value="Gasoline">Gasoline</option>
+                            <option value="Diesel">Diesel</option>
+                            <option value="Electric">Electric</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <label for="preferences">
+                            Preferences
+                        </label>
+                        <br>
+                        <textarea name="Yours preferences" id="preferences" cols="50" rows="10" placeholder="Add your preferences here...">
+                        </textarea>
+                    </fieldset>
+                    <fieldset>
+                        <legend>
+                            How can we contact with you?
+                        </legend>
+                        <label for="E-mail">Your E-mail</label>
+                        <input type="email" id="E-mail">
+                        <br>
+                        <label for="Phone">Your cell number</label>
+                        <input type="tel" id="Phone">
+                    </fieldset>
+                </fieldset>
+                <br>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </form>
+            <hr>
+        </section>
+    </main>
+</body>
+</html>
